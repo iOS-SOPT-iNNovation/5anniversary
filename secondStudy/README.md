@@ -13,9 +13,7 @@ NotificationCenter.default.addObserver(forName: UITextView.textDidChangeNotifica
     }
 }
 ~~~
-> 변경 전
 > <img src="img/01.png" width="400">
-> 변경 후
 > <img src="img/02.png" width="400">
 
 
@@ -62,9 +60,10 @@ override func viewDidLoad() {
 }
 ~~~
 > 변경 전
-> <img src="img/03.png" width="400">
+<img src="img/03.png" width="400">
+
 > 변경 후
-> <img src="img/04.png" width="400">
+<img src="img/04.png" width="400">
 
 > tip. 위에서 notification이 사용될때 자주 사용되는 
 > Notification.Name을 Extension으로 새롭게 프로퍼티에 추가 할 수 있습니다.
