@@ -6,7 +6,7 @@
 > 아래의 코드를 통해
 ~~~swift
 NotificationCenter.default.addObserver(forName: UITextView.textDidChangeNotification, object: postingTextView, queue: OperationQueue.main) { (notification) in
-    if self.postingTextView.text != "" || self.pickedIMG != []{
+    if self.postingTextView.text != ""{
         self.postBtn.isEnabled = true
     } else {
         self.postBtn.isEnabled = false
