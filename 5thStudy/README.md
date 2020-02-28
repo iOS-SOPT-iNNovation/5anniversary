@@ -12,7 +12,7 @@
 
 VC를 생성해주신 이후에 자신의 popupView에 나타날 object들을 아래들의 popupview처럼 생성시켜주시면 됩니다.
 
-> <img src="img/03.png" width="200"><img src="img/04.png" width="200"><img src="img/05.png" width="200">
+> <img src="img/03.PNG" width="200"><img src="img/04.PNG" width="200"><img src="img/05.PNG" width="200">
 
 이번에 간단히 해볼 popupview는 2번째인 view로 해보겠습니다.
 
@@ -40,7 +40,7 @@ VC를 생성해주신 이후에 자신의 popupView에 나타날 object들을 �
 
 이렇게 설정을 해주고 present를 해주게 되면! PopUpView를 만드는 것을 성공했습니다!!
 
-<img src="img/08.png" width="200">
+<img src="img/08.PNG" width="200">
 
 
 
