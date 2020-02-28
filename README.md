@@ -12,3 +12,7 @@
 4. 2020.02.22
 
 > [테이블 뷰 다루기](https://github.com/iOS-SOPT-iNNovation/5anniversary/blob/master/4thStudy/README.md)
+
+5. 2020.02.29
+
+> [팝업 뷰 만들기](https://github.com/iOS-SOPT-iNNovation/5anniversary/blob/master/5thStudy/README.md)
