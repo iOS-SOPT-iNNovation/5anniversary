@@ -76,23 +76,20 @@ NSLog는 print메소드에 비하면 느리지만 타임스탬프와 식별자�
 
 2. baseLog
 
-   base Log의 방법은 print, debugPrint, dump와 같이 있습니다
+base Log의 방법은 print, debugPrint, dump와 같이 있습니다
 
-   ---
-
+---
    
    
-   [print](https://developer.apple.com/documentation/swift/1541053-print)
+[print](https://developer.apple.com/documentation/swift/1541053-print)
 
-   ~~~swift
+~~~swift
 func print(_ items: Any..., separator: String = " ", terminator: String = "\n")
-   ~~~
+~~~
 
    
-   
-   
-   
-   ~~~swift
+     
+~~~swift
        func printTest() {
            print("\n\nfunction : \(#function),\nline : \(#line),\ncolumn : \(#column),\ndsohandle : \(#dsohandle)")
            print("print : ", intTest)
@@ -101,7 +98,7 @@ func print(_ items: Any..., separator: String = " ", terminator: String = "\n")
         print("print : ", stringTestArray)
            print("print : ", testLabel)
        }
-   ~~~
+~~~
    
    ```swift
    function : printTest(),
@@ -132,14 +129,14 @@ func debugPrint(_ items: Any..., separator: String = " ", terminator: String = "
    
    
    ~~~swift
-       func debugPrintTest(){
-           print("\n\nfunction : \(#function),\nline : \(#line),\ncolumn : \(#column),\ndsohandle : \(#dsohandle)")
-           debugPrint("debutPrint : ",intTest)
-        debugPrint("debutPrint : ",intTestArr)
-           debugPrint("debutPrint : ",stringTest)
-           debugPrint("debutPrint : ",stringTestArray)
-           debugPrint("debutPrint : ",testLabel)
-       }
+   func debugPrintTest(){
+       print("\n\nfunction : \(#function),\nline : \(#line),\ncolumn : \(#column),\ndsohandle : \(#dsohandle)")
+       debugPrint("debutPrint : ",intTest)
+       debugPrint("debutPrint : ",intTestArr)
+       debugPrint("debutPrint : ",stringTest)
+       debugPrint("debutPrint : ",stringTestArray)
+       debugPrint("debutPrint : ",testLabel)
+   }
    ~~~
    
    ```swift
@@ -164,15 +161,15 @@ func debugPrint(_ items: Any..., separator: String = " ", terminator: String = "
 
    [dump](https://developer.apple.com/documentation/swift/1539127-dump)
 
-   ~~~swift
+~~~swift
 @discardableResult func dump<T>(_ value: T, name: String? = nil, indent: Int = 0, maxDepth: Int = .max, maxItems: Int = .max) -> T
-   ~~~
+~~~
 
-   - `value`
+- `value`
 
     log를 확인 할 값을 넣어줄 parameter
 
-    - `name`
+- `name`
 
     기본 값은 nil이며 로그에서 무슨 이름으로 나왔으면 좋겠는지 지정해주는 parameter
 
@@ -180,20 +177,19 @@ func debugPrint(_ items: Any..., separator: String = " ", terminator: String = "
 
    
 
-    - `indent`
+- `indent`
    
     기본 값은 0이며 출력되는 각 라인의 스페이스를 지정해주는 parameter
    
-     ~~~swift
-             dump(stringTestArray,name: "String1", indent: 1)
-          dump(stringTestArray,name: "String2", indent: 2)
-             dump(stringTestArray,name: "String3", indent: 3)
-          dump(stringTestArray,name: "String3", indent: 1)
-     ~~~
-   
-     
-   
-     ~~~swift
+~~~swift
+    dump(stringTestArray,name: "String1", indent: 1)
+    dump(stringTestArray,name: "String2", indent: 2)
+    dump(stringTestArray,name: "String3", indent: 3)
+    dump(stringTestArray,name: "String3", indent: 1)
+~~~
+
+
+~~~swift
       ▿ String1: 6 elements
         - "123"
         - "234"
@@ -222,18 +218,18 @@ func debugPrint(_ items: Any..., separator: String = " ", terminator: String = "
         - "456"
      - "567"
         - "678"
-  
-     ~~~
+   
+   ~~~
 
-    - `maxDepth`
+- `maxDepth`
 
     기본 값은 Int.max 이며 출력되었으면 하는 depth를 지정해주는 parameter 
    
     깊이가 출력되는 dump 파일의 특성상 지정해줄 수있다
    
-    - `maxItems`
+- `maxItems`
    
-     기본 값은 Int.max 이며 출력 될 자식의 갯수를 지정해주는 parameter
+    기본 값은 Int.max 이며 출력 될 자식의 갯수를 지정해주는 parameter
    
      
    
