@@ -17,7 +17,7 @@
 
 > [팝업 뷰 만들기](https://github.com/iOS-SOPT-iNNovation/5anniversary/blob/master/5thStudy/README.md)
 
-5. 2020.02.29
+6. 2020.03.07
 
 > [About Log](https://github.com/iOS-SOPT-iNNovation/5anniversary/blob/master/6thStudy/README.md)
 

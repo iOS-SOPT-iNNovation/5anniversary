@@ -28,6 +28,8 @@
 
 ~~~
 
+---
+
 
 
 1. [NSLog](https://developer.apple.com/documentation/foundation/1395275-nslog?language=occ)
@@ -68,33 +70,39 @@ dsohandle : 0x0000000101b9d000
 
 NSLog는 print메소드에 비하면 느리지만 타임스탬프와 식별자를 추가해 보여주지만 print는 보여주지 않으며, NSLog는 장치의 콘솔과 디버거 콘솔 둘 다 보여주지만 print는 디버거 콘솔에만 값을 표시해줍니다.
 
+---
+
 
 
 2. baseLog
 
    base Log의 방법은 print, debugPrint, dump와 같이 있습니다
 
+   ---
+
+   
+   
    [print](https://developer.apple.com/documentation/swift/1541053-print)
 
    ~~~swift
-   func print(_ items: Any..., separator: String = " ", terminator: String = "\n")
+func print(_ items: Any..., separator: String = " ", terminator: String = "\n")
    ~~~
 
    
-
    
-
+   
+   
    ~~~swift
        func printTest() {
            print("\n\nfunction : \(#function),\nline : \(#line),\ncolumn : \(#column),\ndsohandle : \(#dsohandle)")
            print("print : ", intTest)
            print("print : ", intTestArr)
            print("print : ", stringTest)
-           print("print : ", stringTestArray)
+        print("print : ", stringTestArray)
            print("print : ", testLabel)
        }
    ~~~
-
+   
    ```swift
    function : printTest(),
    line : 43,
@@ -102,54 +110,58 @@ NSLog는 print메소드에 비하면 느리지만 타임스탬프와 식별자�
    dsohandle : 0x0000000101b9d000
    print :  123
    print :  [123, 123, 123, 123, 123]
-   print :  테스트입니다.
+print :  테스트입니다.
    print :  ["123", "234", "345", "456", "567", "678"]
-   print :  <UILabel: 0x7f906a410be0; frame = (0 0; 0 0); userInteractionEnabled = NO; layer = <_UILabelLayer: 0x600003bc4f50>>
+print :  <UILabel: 0x7f906a410be0; frame = (0 0; 0 0); userInteractionEnabled = NO; layer = <_UILabelLayer: 0x600003bc4f50>>
    ```
 
    평소에 사용 하던 것 처럼 사용하시면 됩니다 
 
+   ---
+   
    
 
    [debugPrint](https://developer.apple.com/documentation/swift/1539920-debugprint)
 
    ~~~swift
-   func debugPrint(_ items: Any..., separator: String = " ", terminator: String = "\n")
+func debugPrint(_ items: Any..., separator: String = " ", terminator: String = "\n")
    ~~~
-
    
-
    
-
+   
+   
+   
    ~~~swift
        func debugPrintTest(){
            print("\n\nfunction : \(#function),\nline : \(#line),\ncolumn : \(#column),\ndsohandle : \(#dsohandle)")
            debugPrint("debutPrint : ",intTest)
-           debugPrint("debutPrint : ",intTestArr)
+        debugPrint("debutPrint : ",intTestArr)
            debugPrint("debutPrint : ",stringTest)
            debugPrint("debutPrint : ",stringTestArray)
            debugPrint("debutPrint : ",testLabel)
        }
    ~~~
-
+   
    ```swift
    function : debugPrintTest(),
    line : 70,
    column : 75,
    dsohandle : 0x0000000109981000
-   "debutPrint : " 123
+"debutPrint : " 123
    "debutPrint : " [123, 123, 123, 123, 123]
-   "debutPrint : " "테스트입니다."
+"debutPrint : " "테스트입니다."
    "debutPrint : " ["123", "234", "345", "456", "567", "678"]
-   "debutPrint : " <UILabel: 0x7f9cba753960; frame = (0 0; 0 0); userInteractionEnabled = NO; layer = <_UILabelLayer: 0x60000302ee40>>
+"debutPrint : " <UILabel: 0x7f9cba753960; frame = (0 0; 0 0); userInteractionEnabled = NO; layer = <_UILabelLayer: 0x60000302ee40>>
    ```
-
+   
    print와 다른점은 해당하는 object의 상세 내역까지 출력해줍니다. 이런 이유로 print메소드에 비해 조금 느리기는 하지만.
 
    공식문서에서는 디버그를 목적으로 사용할 때 debugPrint사용을 권장하고 있습니다.
 
+   ---
+
    
-   
+
    [dump](https://developer.apple.com/documentation/swift/1539127-dump)
 
    ~~~swift
@@ -169,22 +181,22 @@ NSLog는 print메소드에 비하면 느리지만 타임스탬프와 식별자�
    
 
     - `indent`
-
+   
     기본 값은 0이며 출력되는 각 라인의 스페이스를 지정해주는 parameter
-
+   
      ~~~swift
-          dump(stringTestArray,name: "String1", indent: 1)
-             dump(stringTestArray,name: "String2", indent: 2)
-          dump(stringTestArray,name: "String3", indent: 3)
-             dump(stringTestArray,name: "String3", indent: 1)
+             dump(stringTestArray,name: "String1", indent: 1)
+          dump(stringTestArray,name: "String2", indent: 2)
+             dump(stringTestArray,name: "String3", indent: 3)
+          dump(stringTestArray,name: "String3", indent: 1)
      ~~~
    
      
    
      ~~~swift
-   ▿ String1: 6 elements
+      ▿ String1: 6 elements
         - "123"
-     - "234"
+        - "234"
         - "345"
         - "456"
         - "567"
@@ -208,24 +220,24 @@ NSLog는 print메소드에 비하면 느리지만 타임스탬프와 식별자�
         - "234"
         - "345"
         - "456"
-        - "567"
+     - "567"
         - "678"
-     
+  
      ~~~
-   
+
     - `maxDepth`
-   
+
     기본 값은 Int.max 이며 출력되었으면 하는 depth를 지정해주는 parameter 
-
+   
     깊이가 출력되는 dump 파일의 특성상 지정해줄 수있다
-
+   
     - `maxItems`
-
+   
      기본 값은 Int.max 이며 출력 될 자식의 갯수를 지정해주는 parameter
-
-     
    
      
+   
+  
    
    ~~~swift
        func dumpTest(){
@@ -233,7 +245,7 @@ NSLog는 print메소드에 비하면 느리지만 타임스탬프와 식별자�
            dump(intTest)
            dump(intTestArr)
            dump(stringTest)
-        dump(stringTestArray)
+           dump(stringTestArray)
            dump(testLabel)
        }
    ~~~
@@ -264,6 +276,8 @@ NSLog는 print메소드에 비하면 느리지만 타임스탬프와 식별자�
          - super: NSObject
    ```
 
+---
+
 
 
 3. Special Literal 
@@ -293,6 +307,10 @@ dsohandle : 0x0000000109981000
 ~~~
 
 이를 이용해 custom Log를 만들면 효율적으로 log를 확인 할 수 있습니다.
+
+---
+
+
 
 4. custom Log
 
@@ -342,6 +360,12 @@ SetProfileVC /  / viewDidLoad()
  <UIImagePickerController: 0x7f93dd855800>
 👻👻👻
 ~~~
+
+---
+
+
+
+
 
 
 
