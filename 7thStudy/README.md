@@ -98,6 +98,10 @@
 
 ~~~
 
+## 결과물
+
+<img src="img/01.gif" width="300">
+
 
 
 > ## Plus.  imageView.contentMode 
