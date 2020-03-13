@@ -21,3 +21,7 @@
 
 > [About Log](https://github.com/iOS-SOPT-iNNovation/5anniversary/blob/master/6thStudy/README.md)
 
+7. 2020.03.14
+
+> [make custom loading View](https://github.com/iOS-SOPT-iNNovation/5anniversary/blob/master/7thStudy/README.md)
+
