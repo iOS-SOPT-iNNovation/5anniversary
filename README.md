@@ -25,3 +25,7 @@
 
 > [make custom loading View](https://github.com/iOS-SOPT-iNNovation/5anniversary/blob/master/7thStudy/README.md)
 
+7. 2020.03.21
+
+> [정보 저장의 방법에 대해](https://github.com/iOS-SOPT-iNNovation/5anniversary/blob/master/8thStudy/README.md)
+
