@@ -29,3 +29,6 @@
 
 > [정보 저장의 방법에 대해](https://github.com/iOS-SOPT-iNNovation/5anniversary/blob/master/8thStudy/README.md)
 
+9. 2020.03.28
+
+> [YPImagePicker 사용기](https://blog.5anniversary.dev/7)
