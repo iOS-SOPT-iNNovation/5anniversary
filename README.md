@@ -32,3 +32,7 @@
 9. 2020.03.28
 
 > [YPImagePicker 사용기](https://blog.5anniversary.dev/7)
+
+10. 2020.04.02
+
+> [MVVM 핥아보기](https://blog.5anniversary.dev/8)
