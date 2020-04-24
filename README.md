@@ -44,3 +44,7 @@
 12. 2020.04.18
 
 > [Github project](https://blog.5anniversary.dev/12)
+
+13. 2020.04.25
+
+> [Detecting Background => Foreground](https://blog.5anniversary.dev/10)
