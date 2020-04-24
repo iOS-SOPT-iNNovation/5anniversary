@@ -1,4 +1,4 @@
-# 25.95기 Swift 스터디
+# 25.5기 Swift 스터디
 
 1. 2020.02.01
 > [채팅 뷰 구현을 통한 오토레이아웃](https://github.com/iOS-SOPT-iNNovation/5anniversary/blob/master/1stStudy/README.md)
