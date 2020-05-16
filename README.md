@@ -59,3 +59,9 @@
 15. 2020.05.09
 
 🏃‍♂️ [Server-Side Swift Vapor DB 연결하기](https://blog.5anniversary.dev/15)
+
+16. 2020.05.16
+
+🏃‍♂️ [Vapor - Swift Server, Heroku 배포하기](https://blog.5anniversary.dev/16)<br/>
+🏃‍♂️ [Vapor Heroku MySQL DB 사용하기](https://blog.5anniversary.dev/17)
+
