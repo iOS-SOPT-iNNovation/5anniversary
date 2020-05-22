@@ -67,4 +67,4 @@
 
 17. 2020.05.23
 
-🏃‍♂️ [(Vapor) Rest API 만들기 - 1](https://blog.5anniversary.dev/24
+🏃‍♂️ [(Vapor) Rest API 만들기 - 1](https://blog.5anniversary.dev/24)
