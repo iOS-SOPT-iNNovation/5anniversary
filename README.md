@@ -77,3 +77,6 @@
 
 🏃‍♂️ [(Vapor) Rest API 만들기 - 3](https://blog.5anniversary.dev/26)
 
+19. 2020.06.20
+
+🏃‍♂️ [(Vapor) SQL 문으로 쿼리문 사용하기](https://blog.5anniversary.dev/30)
