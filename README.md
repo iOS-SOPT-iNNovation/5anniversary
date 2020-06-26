@@ -80,3 +80,9 @@
 19. 2020.06.20
 
 🏃‍♂️ [(Vapor) SQL 문으로 쿼리문 사용하기](https://blog.5anniversary.dev/30)
+
+20. 2020.06.27
+
+🏃‍♂️ [(Github) Issue에 대해서...](https://blog.5anniversary.dev/40)
+
+
