@@ -96,3 +96,8 @@
 23. 2020.08.14
 
 🏃‍♂️ [Kakao/Daum Map SDK 사용](https://blog.5anniversary.dev/47)
+
+24. 2020.08.21
+
+🏃‍♂️ [(iOS) 배포/개발 버전 앱 나누기](https://blog.5anniversary.dev/47)
+
