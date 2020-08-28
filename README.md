@@ -101,3 +101,6 @@
 
 🏃‍♂️ [(iOS) 배포/개발 버전 앱 나누기](https://blog.5anniversary.dev/48)
 
+25. 2020.08.28
+
+🏃‍♂️ [(iOS) Animation with SwiftUI](https://blog.5anniversary.dev/49)
