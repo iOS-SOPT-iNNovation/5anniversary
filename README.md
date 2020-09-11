@@ -108,3 +108,7 @@
 26. 2020.09.04
 
 🏃‍♂️ [(iOS) R.swift 사용해보기](https://blog.5anniversary.dev/50)
+
+26. 2020.09.11
+
+🏃‍♂️ [(iOS) Socket.io를 이용해 채팅 구현하기](https://blog.5anniversary.dev/51)
