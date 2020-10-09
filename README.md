@@ -120,3 +120,7 @@
 28. 2020.09.25
 
 🏃‍♂️ [(iOS) Toaster 만들기](https://blog.5anniversary.dev/53)
+
+29. 2020.10.09
+
+🏃‍♂️ [(iOS) SwiftLint 적용해보기!!](https://blog.5anniversary.dev/54)
