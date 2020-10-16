@@ -124,3 +124,7 @@
 29. 2020.10.09
 
 🏃‍♂️ [(iOS) SwiftLint 적용해보기!!](https://blog.5anniversary.dev/54)
+
+30. 2020.10.16
+
+🏃‍♂️ [(Slack) App Store Connect 알림 연결하기](https://blog.5anniversary.dev/55)
