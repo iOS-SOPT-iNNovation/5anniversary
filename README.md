@@ -128,3 +128,7 @@
 30. 2020.10.16
 
 🏃‍♂️ [(Slack) App Store Connect 알림 연결하기](https://blog.5anniversary.dev/55)
+
+30. 2020.10.30
+
+🏃‍♂️ [(iOS) custom Font 쉽게 적용하기!!](https://blog.5anniversary.dev/56)
